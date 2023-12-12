@@ -1,0 +1,194 @@
+/* @font-face {
+    font-family: 俐方體11號;
+    src: url(https://github.com/ACh-K/Cubic-11/blob/main/fonts/web/Cubic_11_1.100_R.woff);
+} */
+@font-face {
+    font-family: '俐方體11號';
+    src: local("俐方體11號") ，
+          url('../Cubic-11-main/fonts/ttf/') format("opentype"),
+          url('../Cubic-11-main/fonts/web/Cubic_11_1.013_R.woff') format("woff")
+  }
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 俐方體11號;
+}
+
+.filter {
+    filter:grayscale(100%) 
+}
+
+.filter_out {
+    transition: 1.5s;
+    filter: grayscale(0%)
+}
+
+.container {
+    width: 100%;
+    background-color: #94976C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding: 0 16px;
+    margin: 28px;
+    border-bottom: #3C3B3B 5px dashed;
+}
+
+.year {
+    font-size: 64px;
+    color: #3C3B3B;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0%;
+}
+
+.main {
+    width: 100%;
+    background-color: #E29D52;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer {
+    width: 284px;
+    height: 36px;
+    background-color: #CDCEBE;
+    border: 2px solid #76706F;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #9B9594;
+    padding-left: 8px;
+    margin-top: 48px;
+    line-height: 18px;
+    box-shadow: 5px 4px 4px 0px rgba(79, 76, 76, 0.25);
+
+}
+
+.confirm {
+    width: 95px;
+    background-color: #A16751;
+    border: 1px solid #7D3D25;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    margin: 24px 0 36px 0;
+    font-size: 20px;
+    box-shadow: 5px 4px 4px 0px rgba(36, 34, 34, 0.25);
+
+}
+
+.show {
+    width: 85%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    background-color: #969B51;
+    border: 2px solid #726060;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.content {
+    width: 100%;
+    height: 280px;
+    background-color: #B5C378;
+    border: 2px solid #726060;
+    border-top: 0;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.2;
+    border-radius: 0 0 10px 10px;
+    /* text-align: center; */
+}
+
+.picc {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#chiicawa {
+    width: 360px;
+    height: 534px;
+    border: 2px solid #726060;
+}
+
+.bar{
+    width: 360px;
+    background-color: #969B51;
+    border: 2px solid #726060;
+    display: flex;
+    justify-content: end;
+}
+
+.bar>img{
+    width: 32px;
+}
+
+.content>img {
+    height: 90%;
+    width: auto;
+    border: 3px solid #726060;
+}
+
+.content>#long_pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(./image/神秘物體.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.icon {
+    width: 80%;
+    /* height: 192px; */
+    margin: 16px auto 40px auto;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 36px;
+    height: 36px;
+    background-color: #C8C0B4;
+    border: 2px solid #726060;
+    border-radius: 4px;
+    margin: 8px 4px 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey {
+    filter: grayscale(100%);
+}
+
+.icon img{
+    width: 36px;
+}
+
+.orange {
+    color: #ffffff;
+}
+
+.red {
+    color: #7D3D25;
+}
